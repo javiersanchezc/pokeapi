@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://javierjasc.dev/pokeapi">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:GetIdRequest>
+            <gs:name>pikachu</gs:name>
+        </gs:GetIdRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
